@@ -1,0 +1,50 @@
+#C2-center {
+    width: 100%;
+    height: 1550px;
+    text-align: center;
+}
+#C2-centerC {
+    width: 1200px;
+    height: 1500px;
+    padding-top: 50px;
+    display: inline-block;    
+}
+table {
+    width: 1200px;
+    height: 1400px;
+    border: 5px inset skyblue;
+}
+table tr {
+    border: 0.5px double black;
+}
+table td {
+    width: 198px;
+    border: 0.5px double black;
+    margin:0 ;
+    padding:0 ;
+    background-color: rgb(247, 247, 242);
+}
+
+td img {
+    width: 96%;
+    margin:0 ;
+    padding:0 ;
+}
+td p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin: 2px;
+    padding: 2px;
+    line-height: 30px;
+    text-indent: 35px;
+    background-color: rgb(247, 247, 242,0);
+}
+
+table td:hover {
+    background-color: skyblue;
+}
+
+table p:hover {
+    background-color: skyblue;
+}

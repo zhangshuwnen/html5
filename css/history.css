@@ -1,0 +1,32 @@
+#H-center{
+    width: 100%;
+    height: 1440px;
+}
+#H-center p{
+    font-family: '宋体';
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 31px;
+    text-indent: 2em; 
+    background-color:rgba(0,0,0,0);
+}
+#H-center img{
+    width: 250px;
+    height: 130px;
+    background-color:rgba(0,0,0,0);
+    border-radius: 5px;
+    float: right;
+}
+.xs{
+    padding-right: 140px;
+}
+.xs2{
+    padding-right: 100px;
+    padding-top: 500px;
+}
+.xs4{
+    padding-right: 200px;
+}

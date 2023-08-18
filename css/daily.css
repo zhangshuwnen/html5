@@ -1,0 +1,22 @@
+#C1-center{
+    width: 100%;
+    height: 1300px;
+}
+#C1-center p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+    text-indent: 2em; 
+    background-color:rgba(0,0,0,0);
+    float: left;
+    width: 50%;
+}
+#C1-center img{
+    float: right;
+    width: 400px;
+    height: 250px;
+    padding-right: 100px;
+    background-color:rgba(0,0,0,0);
+}

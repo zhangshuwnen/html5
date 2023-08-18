@@ -1,0 +1,35 @@
+#V-center{
+    width: 100%;
+    height: 704px;
+}
+#V-center1{
+    width: 99%;
+    height: 200px;
+    border: 6.1px double rgb(48, 167, 214);
+    background-color: rgb(113, 166, 185);
+}
+#V-center2{
+    width: 99%;
+    height: 500px;
+    border: 6.1px double rgb(48, 167, 214);
+    background-color: rgb(186, 219, 231);
+}
+#V-center p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 30px;
+    text-indent: 2em;
+    background-color: rgba(0,0,0,0);
+}
+#V-center a{
+    color: white;
+    border-radius: 5px;
+    background-color: dodgerblue;
+}
+#V-center a:hover{
+    color: black;
+    background-color: skyblue;
+    transition: 0.3s;
+}

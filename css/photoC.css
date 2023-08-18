@@ -1,0 +1,80 @@
+#flash{ /*根据图片的大小来设置外层div的大小*/
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative; /*设置div定位，方便之后图片及圆点位置的设定*/
+  
+}
+#flash img{
+    width: 100%;
+    height: 100%;
+    position: absolute; /*设置所有图片重叠*/
+    left: 0px;
+    top: 0px;
+    display: none; /*设置所有图片隐藏，通过改变第一个图片的行间样式来使第一个图片显示*/
+}
+#flash ul{
+    width: 12%;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    background-color:rgba(255,255,255,0.5);
+    position: absolute;
+    left: 44%;
+    bottom: 10%;
+}
+#flash ul li{
+    width: 12px;
+    height: 12px;
+    margin-top:5px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+    float: left;
+}
+#flash ul .li_1{
+    background-color: #f40; /*设置第一个圆点背景色为红色*/
+}
+#flash .span-r{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 2%;
+    top: 45%;
+    background-color: rgba(255,255,255);
+    opacity: 0.5;
+}
+#flash .span-r span{
+    width: 100%;
+    height:100%;
+    background-color: rgba(255,255,255,0);
+    color:rgba(0,0,0,0.5);
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#flash .span-l{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 2%;
+    top: 45%;
+    background-color: rgba(255,255,255);
+    opacity: 0.5;
+}
+#flash .span-l span{
+    width: 100%;
+    height:100%;
+    color:rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0);
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
